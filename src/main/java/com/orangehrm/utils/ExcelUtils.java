@@ -10,8 +10,6 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import io.opentelemetry.sdk.metrics.data.Data;
-
 public class ExcelUtils {
 
     private Workbook workbook;
