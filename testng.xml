@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestfulBookerSuite">
+    <listeners>
+        <listener class-name="com.orangehrm.utils.TestListener"/>
+    </listeners>
+    <test thread-count="5" name="AllTests">
+        <classes>
+            <class name="com.orangehrm.test.LogInTest"/>
+        </classes>
+    </test>
+</suite>
